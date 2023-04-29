@@ -196,12 +196,12 @@ nav ul a {
 
 @media screen and (max-width: 880px) {
   .cv button {
-    width: 26%;
-    padding: 11px;
+    width: 28%;
+    padding: 9px;
     font-size: 10px;
   }
   .parent-container {
-    gap: 116px;
+    gap: 20px;
   }
   
 }
@@ -454,11 +454,6 @@ nav ul a {
    /* #main-heading{
     font-size: 40px;
    } */
-  .child-container2{
-    padding: 53px 19px;
-    
-    
-  }
   .vector-img{
     padding-left: 30px;
   }
@@ -490,6 +485,11 @@ nav ul a {
   grid-gap: 0px;
   color: azure;
   padding: 53px 38px;
+}
+@media screen and (max-width:800px) {
+  .child-container2{
+    padding: 53px 18px;
+  }
 }
 .vector-img img {
   width: 90%;

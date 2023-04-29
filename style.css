@@ -101,6 +101,10 @@ nav ul a {
     text-align: center;
     font-size: 30px;
   }
+  nav img{
+    margin: 10px 37px;
+    width: 15vh;
+  }
 }
 
 /* ! Main-container-start */
@@ -132,11 +136,28 @@ nav ul a {
 }
 @media screen and (max-width: 880px) {
   .child-text-container h1 {
-    font-size: 55px;
+    font-size: 40px;
+    padding-top: 15px;
+  }
+  .child-text-container h2{
+    font-size: 30px; 
+  }
+  .child-text-container h3{
+    font-size: 25px;
+    padding-top: 10px;
+  }
+  
+  .child-text-container span{
+    font-size: 35px;
+  }
+  .child-text-container{
+    margin-left: 4%;
+    margin-right: 3%;
   }
   .typing {
-    font-size: 20px;
+    font-size: 10px;
   }
+  
 }
 .child-text-container span {
   color: #673de6;
@@ -175,13 +196,14 @@ nav ul a {
 
 @media screen and (max-width: 880px) {
   .cv button {
-    width: 25%;
-    padding: 3%;
+    width: 26%;
+    padding: 11px;
     font-size: 10px;
   }
   .parent-container {
     gap: 116px;
   }
+  
 }
 
 /* ! Property For image   */
@@ -195,6 +217,14 @@ nav ul a {
   height: auto;
   margin-top: 4px;
   margin-left: 60px;
+}
+@media screen and (max-width:800px) {
+  .child-img-container img{
+    margin-left: 30px;
+  }
+  .child-text-container p{
+    font-size: 20px;
+  }
 }
 .child-icon-container0 {
   position: absolute;
@@ -395,6 +425,12 @@ nav ul a {
   transform: translate3d(0, 0, 0);
 }
 
+@media screen and (max-width:800px) {
+  .child-img-container7{
+    display: block;
+  }
+}
+
 .parent-container2 {
   margin-top: 30px;
 }
@@ -414,20 +450,29 @@ nav ul a {
   /* color: #000; */
 }
 
-@media screen and (max-width: 880px) {
-  .heading h1 {
-    font-size: 20px;
+@media screen and (max-width: 400px) {
+   /* #main-heading{
+    font-size: 40px;
+   } */
+  .child-container2{
+    padding: 53px 19px;
+    
+    
   }
-  .heading {
-    width: 55%;
+  .vector-img{
+    padding-left: 30px;
   }
+  .heading h1{
+    margin-top: -10px;
+  }
+ 
 }
 
 .heading h1 {
   /* background-color:white; */
   text-align: center;
   font-family: "Waterfall", cursive;
-  font-size: 80px;
+  font-size: 60px;
   color: #000000;
 }
 
@@ -441,10 +486,10 @@ nav ul a {
   /* border: 20px solid white; */
   /* border-radius: 20px; */
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(344px, 1fr));
   grid-gap: 0px;
   color: azure;
-  padding: 53px 43px;
+  padding: 53px 38px;
 }
 .vector-img img {
   width: 90%;

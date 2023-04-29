@@ -444,9 +444,9 @@ nav ul a {
   z-index: 1;
 
   border-radius: 70px;
-  box-shadow: rgba(105, 61, 230, 0.35) 0px 14px 28px,
-    rgba(106, 61, 230, 0.302) 0px 5px 10px;
-  color: #f0eeee;
+  box-shadow: rgba(106, 61, 230, 0.776) 0px 6px 100px,
+    rgba(106, 61, 230, 0.713) 0px 5px 10px;
+  /* color: #f0eeee; */
   /* color: #000; */
 }
 
@@ -477,7 +477,7 @@ nav ul a {
 
   position: relative;
 
-  margin-top: -43px;
+  margin-top: -40px;
   /* border: 20px solid white; */
   /* border-radius: 20px; */
   display: grid;
@@ -590,6 +590,7 @@ nav ul a {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 30px;
+    padding-bottom: 120px;
     background-color: #000000;
 
 }
@@ -617,9 +618,9 @@ nav ul a {
 
 .achv:hover{
   transform: translate(0px, -10px);
-  box-shadow: 1px 11px 51px -3px rgba(103,61,230,0.75);
-  -webkit-box-shadow: 1px 11px 51px -3px rgba(103,61,230,0.75);
-  -moz-box-shadow: 1px 11px 51px -3px rgba(103,61,230,0.75);
+  box-shadow: 1px 11px 51px -3px rgba(103, 61, 230, 0.613);
+  -webkit-box-shadow: 1px 11px 51px -3px rgba(103, 61, 230, 0.638);
+  -moz-box-shadow: 1px 11px 51px -3px rgba(103, 61, 230, 0.532);
   
   
 }
@@ -639,3 +640,267 @@ nav ul a {
     }
 
   }
+
+/* !------------------------Parent-Container3-Start---------------------------- */
+.parent-container3{
+  /* width: 100%;
+  height: 700px;
+  background-color: red; */
+  
+}
+.heading1{
+  /* background-color: #673de6; */
+  background-color:#000000;
+  margin: auto;
+  width: 50%;
+  /* padding: 30px; */
+  position: relative;
+  z-index: 0;
+
+  border-radius: 70px;
+  box-shadow: rgba(106, 61, 230, 0.776) 0px 7px 800px,
+    rgba(106, 61, 230, 0.713) 0px 5px 10px;
+  /* color: #f0eeee; */
+  /* color: #000; */
+  margin-top: -35px;
+  
+}
+.heading1 h1{
+  text-align: center;
+  font-family: "Waterfall", cursive;
+  font-size: 55px;
+  color: white;
+  padding: 5px;
+  font-weight: 400;
+
+}
+
+.child-container-skill{
+  width: 100%;
+  /* height: 5000px; */
+  /* position: relative; */
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(344px, 1fr));
+  grid-gap: 0px; */
+  /* color: azure; */
+  padding: 53px 38px;
+
+}
+@media screen and (max-width:400) {
+  .heading1 h1{
+    font-size: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.parent-container3 h5{
+  text-align: center;
+  padding-top:40px;
+  font-family: "Philosopher", sans-serif;
+  font-size: 30px;
+  word-spacing: 3px;
+  letter-spacing:3px;
+
+}
+/* .skill-text{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+} */
+
+
+
+.skills_section{
+    width: 100%;
+    height: 100vh;
+    padding: 0px 13%;
+    background-color: rgba(0, 0, 0, 0.082);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.skills_head{
+    width: 100%;
+    margin-bottom: 100px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.skills_head h2{
+    font-size: 30px;
+    margin-bottom: -5px;
+}
+.skills_head h2 span{
+    color: #e74d06;
+}
+.skills_main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px,2fr));
+    grid-row-gap: 30px;
+    grid-column-gap: 200px;
+    padding: 40px;
+    box-shadow: rgba(105, 69, 230, 0.25) 0px 54px 55px, rgba(105, 69, 230, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+}
+@media screen and (max-width:300) {
+  .skills_main{
+   
+
+  }
+}
+.skills_main .skill_bar .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 10px;
+    font-family: "Philosopher", sans-serif;
+}
+.skill_bar .info p:nth-child(2){
+    font-weight: 500;
+}
+.skill_bar .bar{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.144);
+    border-radius: 25px;
+    margin-top: 5px;
+    position: relative;
+}
+.skill_bar .bar span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: #673de6;
+    border-radius: 25px;
+}
+.skill_bar .bar .html{
+    width: 98%;
+    animation: html 2s;
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }100%{
+        width: 98%;
+    }
+}
+.skill_bar .bar .reactjs{
+    width: 70%;
+    animation: reactjs 2s;
+}
+@keyframes reactjs {
+    0%{
+        width: 0%;
+    }100%{
+        width: 70%;
+    }
+}
+.skill_bar .bar  .css{
+    width: 90%;
+    animation: css 2s;
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }100%{
+        width: 90%;
+    }
+}
+.skill_bar .bar .java{
+    width: 70%;
+    animation: java 2s;
+}
+@keyframes java {
+    0%{
+        width: 0%;
+    }100%{
+        width: 70%;
+    }
+}
+.skill_bar .bar .javascript{
+    width: 60%;
+    animation: javascript 2s;
+}
+@keyframes javascript {
+    0%{
+        width: 0%;
+    }100%{
+        width: 60%;
+    }
+}
+.skill_bar .bar .node{
+    width: 70%;
+    animation: node 2s;
+}
+@keyframes node {
+    0%{
+        width: 0%;
+    }100%{
+        width: 70%;
+    }
+}
+.skill_bar .bar .bootstrap{
+    width: 65%;
+    animation: bootstrap 2s;
+}
+@keyframes bootstrap {
+    0%{
+        width: 0%;
+    }100%{
+        width: 65%;
+    }
+}
+.skill_bar .bar .mongo{
+    width: 60%;
+    animation: mongo 2s;
+}
+@keyframes mongo {
+    0%{
+        width: 0%;
+    }100%{
+        width: 60%;
+    }
+}
+.skill_bar .bar .python{
+    width: 60%;
+    animation: python 2s;
+}
+@keyframes python {
+    0%{
+        width: 0%;
+    }100%{
+        width: 60%;
+    }
+}
+.skill_bar .bar .sql{
+    width: 60%;
+    animation: sql 2s;
+}
+@keyframes sql {
+    0%{
+        width: 0%;
+    }100%{
+        width: 60%;
+    }
+}

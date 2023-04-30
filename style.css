@@ -657,7 +657,7 @@ nav ul a {
   width: 50%;
   /* padding: 30px; */
   position: relative;
-  z-index: 0;
+  z-index: 1;
 
   border-radius: 70px;
   box-shadow: rgba(106, 61, 230, 0.776) 0px 7px 800px,
@@ -950,20 +950,22 @@ nav ul a {
 .child-container4{
   width: 100%;
   background-color: #000000;
-  position: absolute;
-  margin-top: -35px;
+  /* position: absolute; */
+  margin-top: -125px;
 }
 .child-container4 h2{
   color: white;
   text-align: center;
   margin-top: 8%;
-  /* padding-top:40px; */
+  padding-top:75px;
   font-family: "Philosopher", sans-serif;
   font-size: 30px;
   word-spacing: 3px;
   letter-spacing:3px;
+  
   /* text-shadow: 2px 0px 6px rgba(103,69,230,0.63); */
 }
+
 .child-container4 span{
   color: #673de6;
   font-size:40px;
@@ -1064,15 +1066,15 @@ nav ul a {
   }
   
 }
+
 .see-more{
   display: flex;
   justify-content: center;
   margin: 30px;
   margin-top: -20px;
   text-decoration: none;
-  
-  
-  
+  /* margin-bottom: 100px; */
+  padding-bottom: 100px;
 }
 
 #see-more{
@@ -1109,6 +1111,153 @@ color: #000000;
 }
 @media screen and (max-width:500px) {
   #see-more{
-    width: 37%;
+    width: 50%;
   }
+  .layer h3{
+    font-size: 20px;
+  }
+  .layer p{
+    font-size: 15px;
+  }
+  .layer i{
+    font-size: 30px;
+  }
+}
+/* !---------Project Section End ---------- */
+
+/* !---------Contact Me Section End--------- */
+
+.parent-container5{
+  
+  
+}
+.contact{
+  
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    position:relative;
+    z-index:1;
+    border-radius: 70px;
+    box-shadow: rgba(106, 61, 230, 0.776) 0px 6px 100px,
+      rgba(106, 61, 230, 0.713) 0px 5px 10px;
+    color: #000;
+    margin-top:-59px ;
+}
+
+.parent-container5 h1{
+  text-align: center;
+  font-family: "Waterfall", cursive;
+  font-size: 50px;
+  padding: 5px;
+  font-weight: 600;
+}
+.child-contact{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(344px, 1fr));
+  grid-gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 200px;
+}
+.child-contact-icon{
+  /* margin-top: 10px; */
+  text-align: center;
+  margin-left: 100px;
+  border-radius: 20px;
+  margin-top:50px;
+  padding: 20px;
+  box-shadow: rgba(105, 69, 230, 0.25) 0px 54px 55px, rgba(105, 69, 230, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.child-contact-icon i{
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-size: 50px;
+}
+.child-contact-icon h5{
+  font-size: 20px;
+  font-family: "Philosopher", sans-serif;
+}
+.child-contact-icon p{
+  padding: 10px;
+  font-family: "Philosopher", sans-serif;
+}
+#address{
+  color: #673de6;
+
+}
+@media screen and (max-width:800px) {
+  .child-contact-icon{
+    margin: 25px;
+  }
+}
+
+.contact-form{
+  margin: 30px;
+}
+.contact-form form{
+  margin-top: 5px;
+}
+.contact-form h2{
+  font-size: 60px;
+  font-family: "Philosopher", sans-serif;
+}
+.contact-form input{
+  padding: 16px;
+  font-family: "Philosopher", sans-serif;
+  width: 85%;
+  margin: 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: none;
+  border: 1px solid #673de6;
+  box-shadow: rgba(103, 69, 230, 0.15) 0px 15px 25px, rgba(103, 69, 230, 0.05) 0px 5px 10px;
+}
+
+.contact-form textarea{
+  padding: 16px;
+  font-family: "Philosopher", sans-serif;
+  width: 85%;
+  margin: 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: none;
+  border: 1px solid #673de6;
+  box-shadow: rgba(103, 69, 230, 0.15) 0px 15px 25px, rgba(103, 69, 230, 0.05) 0px 5px 10px;
+}
+.contact-form button{
+  padding: 10px;
+  width: 85%;
+  margin: 10px;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 9px;
+  cursor: pointer;
+  font-family: "Philosopher", sans-serif;
+  border-radius: 20px;
+  border: none;
+  border: 1px solid #673de6;
+  box-shadow: rgba(103, 69, 230, 0.15) 0px 15px 25px, rgba(103, 69, 230, 0.05) 0px 5px 10px;
+}
+.contact-form button:hover{
+  background-color: #673de6;
+  color: white;
+}
+@media screen and (max-width:800px) {
+  .contact-form h2{
+    font-size: 50px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+.contact-form{
+  margin-left: 28px;
+}
+.contact-form input{
+  width: 95%;
+}
+.contact-form textarea{
+  width: 95%;
+}
+.contact-form button{
+  width: 95%;
+}
 }

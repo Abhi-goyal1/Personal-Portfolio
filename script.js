@@ -7,3 +7,4 @@ var typed = new Typed(".typing", {
 
 
 
+

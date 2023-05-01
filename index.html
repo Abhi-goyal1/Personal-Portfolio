@@ -12,6 +12,17 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <link rel="stylesheet" href="style.css">
 
+
+
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script src="contact.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("N5GjL3c7Lu-8DnZ16");
+   })();
+</script>
 </head>
 <body>
    <div class="wrapper">
@@ -25,7 +36,7 @@
          <a href="#about"> <li><i class="fa-solid fa-user"></i></i>ABOU<span>T</span></li></a>
          <a href="#skill"> <li><i class="fa-solid fa-briefcase"></i>SKILL<span>S</span></li></a>
          <a href="#project"> <li><i class="fa-solid fa-bars-progress"></i>PROJECT<span>S</span></li></a>
-         <a href="contact.html"> <li><i class="fa-solid fa-phone"></i>CONTAC<span>T</span></li></a> 
+         <a href="#contact"> <li><i class="fa-solid fa-phone"></i>CONTAC<span>T</span></li></a> 
         </ul>
     </nav>
 <!-- !-------------------------------- Navigation Bar End ------------------------------>
@@ -333,7 +344,7 @@
 
     <!-- !--------------Project Section End-------------- -->
     
-    <div class="parent-container5">
+    <div class="parent-container5" id="contact">
         <div class="contact">
             <h1>Contact Me</h1>
         </div>
@@ -370,20 +381,47 @@
             <div class="contact-form">
               <h2>Get In Touch</h2>
               <form action="">
-                <input type="text" placeholder="Enter Your Name" required>
-                <input type="email" placeholder="Enter Your Email" required>
-                <input type="number" placeholder="Enter Your Phone" required>
-                <textarea name="" id="" cols="30" rows="5" placeholder="Message"></textarea>
-                <button>SEND <i class="fa-solid fa-paper-plane"></i></button>
+                <input type="text" placeholder="Enter Your Name" id="name" required>
+                <input type="email" placeholder="Enter Your Email" id="email" required>
+                <input type="number" placeholder="Enter Your Phone" id="phone" required>
+                <textarea name="" id="" cols="30" rows="5" placeholder="Message" id="message" ></textarea>
+                <button onclick="sendMail" >SEND <i class="fa-solid fa-paper-plane"></i></button>
               </form>
             </div>
         </div>
     </div>
 
+    <div class="parent-container6" >
+        <div class="subscribe">
+            <div class="child-subscribe">
+                <div class="subscribe-text">
+                    <button>Hire Me</button>
+                </div>
+                <div class="subscribe-btn">
+                    <a target="_blank" href="https://www.linkedin.com/in/abhi-goyal-7b736018a/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a target="_blank" href="https://github.com/Abhi-goyal1"><i class="fa-brands fa-github"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/_.abhigoyal_/"><i class="fa-brands fa-instagram-square"></i></a>
+                    <!-- <a target="_blank" href="https://codepen.io/abhigoyal1"><i class="fa-brands fa-codepen"></i></a> -->
+                    <!-- <a target="_blank" href="https://www.hackerrank.com/abhigoyal7262121"><i class="fa-brands fa-hackerrank"></i></a> -->
+                    <a target="_blank" href="#"><i class="fa-brands fa-twitter-square"></i></a>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="footer">
+            <div class="footer-logo">
+                <h1>Abhi Goyal<span></span></h1>
+                <p>Copyright 2020.All Right Reserved | Developer By Abhi Goyal</p>
+            </div>
+          
+        </div>
+
+    </div>
+
 
 </div>
 
-   
 
 
    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>

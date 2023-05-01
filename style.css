@@ -4,6 +4,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Waterfall&display=swap");
+@font-face {
+  font-family: 'TT Rounds Neue Condensed';
+  src: local('TT Rounds Neue Condensed Demi Bold'), local('TT-Rounds-Neue-Condensed-Demi-Bold'),
+      url('TTRoundsNeue-CondDBold.woff2') format('woff2'),
+      url('TTRoundsNeue-CondDBold.woff') format('woff'),
+      url('TTRoundsNeue-CondDBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 html {
   scroll-behavior: smooth;
 }
@@ -1157,7 +1168,7 @@ color: #000000;
   grid-template-columns: repeat(auto-fit, minmax(344px, 1fr));
   grid-gap: 10px;
   margin-top: 30px;
-  margin-bottom: 200px;
+  margin-bottom: 170px;
 }
 .child-contact-icon{
   /* margin-top: 10px; */
@@ -1260,4 +1271,203 @@ color: #000000;
 .contact-form button{
   width: 95%;
 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.subscribe{
+  background-color: #000000;
+  margin: auto;
+  width: 65%;
+  position:relative;
+  z-index:1;
+  border-radius: 70px;
+  box-shadow: rgba(106, 61, 230, 0.776) 0px 6px 100px,
+    rgba(106, 61, 230, 0.713) 0px 5px 10px;
+  color: #000;
+  margin-top:-99px ;
+  height: 140px;
+
+  
+}
+.child-subscribe{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(244px, 1fr));
+  grid-gap: 10px;
+  padding: 26px;
+  padding-left: 60px;
+  
+
+}
+.footer{
+  background-color: #000000;
+  height: 260px;
+  margin-top: -70px;
+  position:absolute;
+  z-index: 0;
+  width: 100%;
+
+}
+.subscribe-text button{
+  background-color: #000000;
+  margin: auto;
+  width: 70%;
+  padding: 20px;
+  font-size: 40px;
+  font-family: "Philosopher", sans-serif;
+  
+  
+  border-radius: 70px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(104, 69, 230, 0.549) 0px 0.125em 0.5em, rgba(105, 69, 230, 0.1) 0px 0px 0px 1px inset;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border: 1px solid #673de6;
+
+}
+.subscribe-text button:hover{
+  background-color: #673de6;
+  color: white;
+}
+
+.footer h1{
+  
+color: #fff;
+text-align: center;
+margin-top: 7%;
+font-size: 90px;
+font-family: "Waterfall", cursive;
+
+}
+.footer span{
+  color: #673de6;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.subscribe-btn i{
+  color:white;
+  font-size: 40px;
+  padding-left:30px ;
+  margin-top: 30px;
+
+}
+.footer-logo p{
+  color:white;
+  text-align: center;
+  padding: 20px;
+  word-spacing: 9px;
+  letter-spacing: 6px;
+}
+
+.fa-linkedin{
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+.fa-linkedin{
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+
+
+.fa-github{
+  -webkit-animation: mover 1.2s infinite  alternate;
+  animation: mover 1.2s infinite  alternate;
+}
+.fa-github{
+  -webkit-animation: mover 1.2s infinite  alternate;
+  animation: mover 1.2s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+
+
+
+
+.fa-instagram-square{
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+.fa-instagram-square{
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+
+
+
+
+.fa-twitter-square{
+  -webkit-animation: mover 1.2s infinite  alternate;
+  animation: mover 1.2s infinite  alternate;
+}
+.fa-twitter-square{
+  -webkit-animation: mover 1.2s infinite  alternate;
+  animation: mover 1.2s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(); }
+  100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+
+@media screen and (max-width:800px) {
+  .subscribe{
+    width: 90%;
+    height: 140px;
+  }
+  .subscribe-text button{
+    width: 80%;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: -18px;
+    margin-left: 10px;
+  }
+  .subscribe-btn i{
+    font-size: 25px;
+    padding-left: 20px;
+    margin-left: 7px;
+    margin-bottom: 5px;
+  }
+  .footer h1{
+    font-size: 55px;
+    margin-top: 20%;
+  }
+  .footer-logo p{
+    word-spacing: 3px;
+    letter-spacing: 4px;
+  }
 }

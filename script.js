@@ -5,3 +5,5 @@ var typed = new Typed(".typing", {
     loop:true
 })
 
+
+

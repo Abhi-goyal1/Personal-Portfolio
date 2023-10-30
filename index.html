@@ -367,7 +367,7 @@
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/about-img2.png" alt="">
+                    <img src="images/cartwish.jpg" alt="">
                      <div class="layer">
                         <h3>CartWish</h3>
                         <p> A MERN stack e-commerce platform with product and cart management and secure Stripe payments.</p>
@@ -420,13 +420,13 @@
 
             <div class="contact-form">
               <h2>Get In Touch</h2>
-              <form action="">
-                <input type="text" placeholder="Enter Your Name" id="name" required>
-                <input type="email" placeholder="Enter Your Email" id="email" required>
-                <input type="number" placeholder="Enter Your Phone" id="phone" required>
-                <textarea name="" id="" cols="30" rows="5" placeholder="Message" id="message" ></textarea>
-                <button onclick="sendMail" >SEND <i class="fa-solid fa-paper-plane"></i></button>
-              </form>
+              <form action="https://formspree.io/f/xyyqoqan" class="needs-validation" novalidate method="POST" id="contact-form">
+                <input  type="text" placeholder="Enter Your Name" id="name" name="name" required>
+                <input type="email" placeholder="Enter Your Email" id="email" name="email" required>
+                <input type="tel" placeholder="Enter Your Phone" id="phone" name="phone" required>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="Message" required></textarea>
+                <button type="submit">SEND <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
             </div>
         </div>
     </div>
@@ -464,6 +464,7 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
    
    <script src="script.js"></script>
+   <script src="contact.js"></script>
 
    <script src="toogle.js"></script>
    

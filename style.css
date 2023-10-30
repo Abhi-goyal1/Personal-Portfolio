@@ -900,6 +900,28 @@ nav ul a {
         width: 60%;
     }
 }
+.skill_bar .bar .graphql{
+    width: 80%;
+    animation: graphql 2s;
+}
+@keyframes graphql {
+    0%{
+        width: 0%;
+    }100%{
+        width: 80%;
+    }
+}
+.skill_bar .bar .express{
+    width: 80%;
+    animation: express 2s;
+}
+@keyframes express {
+    0%{
+        width: 0%;
+    }100%{
+        width: 80%;
+    }
+}
 
 /* !-------------------------------Skills-Section-css-end----------------------------- */
 

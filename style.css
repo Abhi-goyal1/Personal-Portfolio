@@ -835,14 +835,14 @@ nav ul a {
     }
 }
 .skill_bar .bar .javascript{
-    width: 60%;
+    width: 80%;
     animation: javascript 2s;
 }
 @keyframes javascript {
     0%{
         width: 0%;
     }100%{
-        width: 60%;
+        width: 80%;
     }
 }
 .skill_bar .bar .node{
@@ -856,26 +856,37 @@ nav ul a {
         width: 70%;
     }
 }
+.skill_bar .bar .tailwind{
+    width: 90%;
+    animation: node 2s;
+}
+@keyframes tailwind {
+    0%{
+        width: 0%;
+    }100%{
+        width: 90%;
+    }
+}
 .skill_bar .bar .bootstrap{
-    width: 65%;
+    width: 90%;
     animation: bootstrap 2s;
 }
 @keyframes bootstrap {
     0%{
         width: 0%;
     }100%{
-        width: 65%;
+        width: 90%;
     }
 }
 .skill_bar .bar .mongo{
-    width: 60%;
+    width: 70%;
     animation: mongo 2s;
 }
 @keyframes mongo {
     0%{
         width: 0%;
     }100%{
-        width: 60%;
+        width: 70%;
     }
 }
 .skill_bar .bar .python{
@@ -890,14 +901,14 @@ nav ul a {
     }
 }
 .skill_bar .bar .sql{
-    width: 60%;
+    width: 80%;
     animation: sql 2s;
 }
 @keyframes sql {
     0%{
         width: 0%;
     }100%{
-        width: 60%;
+        width: 80%;
     }
 }
 .skill_bar .bar .graphql{

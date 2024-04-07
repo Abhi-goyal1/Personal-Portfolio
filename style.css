@@ -201,7 +201,7 @@ nav ul a {
   background-color: black;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 50px;
   font-size: 14px;
   transition: transform 300ms ease-out;
   margin-top: 15px;
@@ -962,12 +962,12 @@ nav ul a {
 }
 .child-container4{
   width: 100%;
-  background-color: #000000;
+  /* background-color: #000000; */
   /* position: absolute; */
   margin-top: -125px;
 }
 .child-container4 h2{
-  color: white;
+  /* color: white; */
   text-align: center;
   margin-top: 8%;
   padding-top:75px;
@@ -1100,7 +1100,7 @@ nav ul a {
   font-family: "Philosopher", sans-serif;
   border:none;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 50px;
   font-weight: 600;
   background-color: #673de6;
   color: #fff;
@@ -1362,8 +1362,8 @@ font-family: "Waterfall", cursive;
   color:white;
   text-align: center;
   padding: 20px;
-  word-spacing: 9px;
-  letter-spacing: 6px;
+  word-spacing: 5px;
+  /* letter-spacing: 6px; */
 }
 
 .subscribe-btn .fa-linkedin{
@@ -1470,3 +1470,211 @@ font-family: "Waterfall", cursive;
 }
 
 /* !-------------------------------footer-css-end----------------------------- */
+
+
+
+
+
+
+#projects{
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.project-cs-hero {
+  color: #fff;
+  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
+  background-size: cover;
+  background-position: center;
+  position: relative; }
+  @media only screen and (max-width: 37.5em) {
+    .project-cs-hero {
+      height: unset;
+      min-height: unset; } }
+  .project-cs-hero__content {
+    padding: 25rem 0 17rem 0;
+    max-width: 90rem;
+    width: 92%;
+    margin: auto; }
+    @media only screen and (max-width: 37.5em) {
+      .project-cs-hero__content {
+        padding: 19rem 0 13rem 0;
+        margin: auto;
+        position: static;
+        transform: translate(0, 0); } }
+  .project-cs-hero__info {
+    margin: 3rem auto 0 auto;
+    max-width: 80rem; }
+  .project-cs-hero__cta {
+    margin-top: 5rem;
+    text-align: center; }
+
+.project-details__content {
+  padding: 8rem 0;
+  max-width: 90rem;
+  margin: auto; }
+  .project-details__content-title {
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin-bottom: 3rem; }
+    @media only screen and (max-width: 37.5em) {
+      .project-details__content-title {
+        font-size: 2.4rem; } }
+
+.project-details__showcase-img-cont {
+  width: 100%;
+  margin-bottom: 6rem; }
+
+.project-details__showcase-img {
+  width: 100%; }
+
+.project-details__content-main {
+  width: 100%;
+  max-width: 70rem;
+  margin: auto; }
+
+.project-details__desc {
+  margin: 0 0 7rem 0; }
+  .project-details__desc-para {
+    font-size: 1.8rem;
+    line-height: 1.7;
+    color: grey;
+    margin-bottom: 2rem; }
+
+.project-details__tools-used {
+  margin: 0 0 7rem 0; }
+  .project-details__tools-used-list {
+    display: flex;
+    flex-wrap: wrap; }
+  .project-details__tools-used-item {
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.6rem;
+    background: rgba(153, 153, 153, 0.2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #777; }
+
+.project-details__links {
+  margin: 0 0; }
+  .project-details__links-btn {
+    margin-right: 2rem; }
+    @media only screen and (max-width: 37.5em) {
+      .project-details__links-btn {
+        margin-right: 0;
+        width: 70%;
+        margin-bottom: 2rem;
+        text-align: center; } }
+    .project-details__links-btn:last-child {
+      margin: 0; }
+      @media only screen and (max-width: 37.5em) {
+        .project-details__links-btn:last-child {
+          margin: 0; } }
+
+
+          .projects__row {
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            grid-gap: 3rem;
+            margin-bottom: 11rem; }
+            @media only screen and (max-width: 56.25em) {
+              .projects__row {
+                grid-template-columns: 1fr;
+                grid-gap: 2rem;
+                margin-bottom: 8rem; } }
+            @media only screen and (max-width: 56.25em) {
+              .projects__row {
+                text-align: center; } }
+            .projects__row:last-child {
+              margin-bottom: 0; }
+            .projects__row-img-cont {
+              overflow: hidden; }
+            .projects__row-img {
+              width: 100%;
+              display: block;
+              object-fit: cover; }
+            .projects__row-content {
+              padding: rem 0;
+              display: flex;
+              justify-content: center;
+              flex-direction: column;
+              align-items: flex-start; }
+              @media only screen and (max-width: 56.25em) {
+                .projects__row-content {
+                  align-items: center; 
+                } }
+              .projects__row-content-title {
+                font-weight: 700;
+                color: #673de6;
+                font-family: "Philosopher", sans-serif;
+                font-size: 2.8rem;
+                margin-bottom: 2rem; }
+                @media only screen and (max-width: 37.5em) {
+                  .projects__row-content-title {
+                    font-size: 2.4rem; } }
+              .projects__row-content-desc {
+                font-size: 1.3rem;
+                color: grey;
+                max-width: 60rem;
+                line-height: 1.7;
+                margin-bottom: 3rem; }
+                @media only screen and (max-width: 37.5em) {
+                  .projects__row-content-desc {
+                    font-size: 1.7rem; } }
+          
+
+
+
+                    .case-study{
+                      display: flex;
+                      justify-content: center;
+                      margin: 0px;
+                      margin-top: -20px;
+                      text-decoration: none;
+                      /* margin-bottom: 100px; */
+                      padding-bottom: 100px;
+                    }
+                    
+                    .case-study i{
+                      padding-left: 10px;
+                    }
+
+                    #case-study{
+                      padding: 9px;
+                    
+                      font-size: 17px;
+                      font-family: "Philosopher", sans-serif;
+                      border:none;
+                      cursor: pointer;
+                      border-radius: 50px;
+                      font-weight: 600;
+                      background-color: #673de6;
+                      color: #fff;
+                    
+                    }
+                  
+                    
+                    
+                    
+                    #case-study{
+                      /* color: white; */
+                      background-color: #673de6;
+                      transition: transform 300ms ease-out;
+                    } 
+
+
+                    .skills {
+                      display: flex;
+                      flex-wrap: wrap; }
+                      .skills__skill {
+                        padding: 1rem ;
+                        margin-bottom: 1.5rem;
+                        margin-right: 1.5rem;
+                        font-size: 1.1rem;
+                        background: rgba(153, 153, 153, 0.2);
+                        border-radius: 5px;
+                        font-weight: 600;
+                        font-family: "Philosopher", sans-serif;
+                        color: #676666; }
+                    

@@ -1514,12 +1514,7 @@ nav ul a {
 
 .project-cs-hero {
   color: #fff;
-  background: linear-gradient(
-      to right,
-      rgba(0, 98, 185, 0.8),
-      rgba(0, 98, 185, 0.8)
-    ),
-    url(../../assets/svg/common-bg.svg);
+background-color: #673de6;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -1611,7 +1606,13 @@ nav ul a {
   font-weight: 600;
   color: #777;
 }
-
+.project-details__links a.one{
+  background-color: #673de6;
+}
+.project-details__links a.two{
+  border:1px solid #673de6;
+  color:#673de6;
+}
 .project-details__links {
   margin: 0 0;
 }

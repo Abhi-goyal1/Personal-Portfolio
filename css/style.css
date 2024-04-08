@@ -315,6 +315,7 @@ textarea {
           font-size: 2.4rem; } }
     .projects__row-content-desc {
       font-size: 1.8rem;
+      
       color: grey;
       max-width: 50rem;
       line-height: 1.7;
@@ -322,7 +323,8 @@ textarea {
       @media only screen and (max-width: 37.5em) {
         .projects__row-content-desc {
           font-size: 1.7rem;
-          max-width: 20rem; } }
+          max-width: 20rem;
+          padding: 10px; } }
 
 .contact {
   background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);

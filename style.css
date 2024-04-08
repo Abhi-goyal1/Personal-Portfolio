@@ -1111,7 +1111,7 @@ nav ul a {
   cursor: pointer;
   border-radius: 50px;
   font-weight: 600;
-  background-color: #673de6;
+  background-color: #0000;
   color: #fff;
 }
 #see-more:hover {
@@ -1124,7 +1124,7 @@ nav ul a {
 }
 #see-more {
   /* color: white; */
-  background-color: #673de6;
+  background-color: #000000;
   transition: transform 300ms ease-out;
 }
 .fa-angles-right {
@@ -1368,6 +1368,13 @@ nav ul a {
   padding: 20px;
   word-spacing: 5px;
   /* letter-spacing: 6px; */
+}
+@media  screen and (max-width: 568px) {
+  .footer-logo p {
+    
+    word-spacing: 0px;
+    letter-spacing: 1px;
+  }
 }
 
 .subscribe-btn .fa-linkedin {
@@ -1701,7 +1708,7 @@ nav ul a {
   margin-top: -20px;
   text-decoration: none;
   /* margin-bottom: 100px; */
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
 }
 
 .case-study i {

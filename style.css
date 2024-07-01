@@ -190,6 +190,8 @@ nav ul a {
   font-size: 23px;
   text-justify: inter-word;
   margin-top: -10px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .typing {
   font-family: "Niconne", cursive;
@@ -563,6 +565,8 @@ nav ul a {
   font-family: "Philosopher", sans-serif;
   font-size: 20px;
   padding-top: 10px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .tab-titles {
   display: flex;
@@ -652,6 +656,10 @@ nav ul a {
   .child-container3 {
     row-gap: 20px;
   }
+}
+
+.reveals{
+  font-family: "Philosopher", sans-serif;
 }
 
 /* !-------------------------------About-css-End----------------------------- */
@@ -1049,6 +1057,7 @@ nav ul a {
 .layer p {
   padding: 10px;
   font-family: "Philosopher", sans-serif;
+  
 }
 .layer i {
   color: white;
@@ -1695,6 +1704,9 @@ background-color: #673de6;
   max-width: 60rem;
   line-height: 1.7;
   margin-bottom: 3rem;
+  text-align: justify;
+  text-justify: inter-word;
+  padding-right: 3rem;
 }
 @media only screen and (max-width: 37.5em) {
   .projects__row-content-desc {

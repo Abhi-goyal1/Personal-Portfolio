@@ -468,7 +468,10 @@ textarea {
     font-size: 1.8rem;
     line-height: 1.7;
     color: grey;
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    text-align: justify;
+  text-justify: inter-word;
+   }
 
 .project-details__tools-used {
   margin: 0 0 7rem 0; }

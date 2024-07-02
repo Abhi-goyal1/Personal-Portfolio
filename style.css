@@ -1711,7 +1711,8 @@ background-color: #673de6;
 @media only screen and (max-width: 37.5em) {
   .projects__row-content-desc {
     font-size: 1rem;
-    padding-right: 0rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
 }
 
